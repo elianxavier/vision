@@ -92,11 +92,11 @@ form
     margin-top: 20px;
 }
 
-.card > button:hover
+/*.card > button:hover
 {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
     transform: scale(1.1);
-}
+}*/
 
 .card > button:active
 {
