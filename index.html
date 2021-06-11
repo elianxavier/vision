@@ -9,36 +9,38 @@
 </head>
 <body>
     <h1>Vision</h1>
-    <div class="card card1">
-        <label for="inicio">Nos diga onde você está</label>
-        <input type="text" id="inicio" name="" placeholder="Onde você está?">
-        <button id="submit1">Escolher local</button>
-        
-        <div class="aux">
-            <div class="locais" id="locais1">
-                <button>Biblioteca</button>
-                <button>Cores</button>
-                <button>LADES</button>
-                <button>Refeitório</button>
-                <button>Sala 1 - Bloco C</button>
-            </div>
+    <form method="get" action="navegacao.html">
+        <div class="card card1">
+            <label>Nos diga onde você está</label>
+            
+            <select name="partida">
+                <option selected disabled></option>
+                <option value="A">Bloco A</option>
+                <option value="B">Bloco B</option>
+                <option value="C">Bloco C</option>
+                <option value="D">Bloco D</option>
+                <option value="E">Bloco E</option>
+                <option value="F">Bloco F</option>
+            </select>
         </div>
-    </div>
-    <div class="card card2">
-        <label for="final">Nos diga onde você gostaria de ir</label>
-        <input type="text" id="final" name="" placeholder="Onde você vai?">
-        <button id="submit2">Escolher local</button>
-        
-        <div class="aux">
-            <div class="locais" id="locais2">
-                <button>Biblioteca</button>
-                <button>Cores</button>
-                <button>LADES</button>
-                <button>Refeitório</button>
-                <button>Sala 1 - Bloco C</button>
-            </div>
+        <div class="card card2">
+            <label>Nos diga onde você gostaria de ir</label>
+            
+            <select name="chegada">
+                <option selected disabled></option>
+                <option value="A">Bloco A</option>
+                <option value="B">Bloco B</option>
+                <option value="C">Bloco C</option>
+                <option value="D">Bloco D</option>
+                <option value="E">Bloco E</option>
+                <option value="F">Bloco F</option>
+                <option>Biblioteca</option>
+                <option>Protocolo</option>
+                <option>CGTI</option>
+            </select>
         </div>
-    </div>
+        <button type="submit">Começar</button>
+    </form>
 
     <script src="js/script.js"></script>
 </body>

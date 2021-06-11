@@ -11,7 +11,7 @@
 
 body
 {
-    background-color: #ddd;
+    background-color: #0D3332;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,7 @@ h1
     font-size: 3rem;
     margin: 0;
     margin-bottom: 10px;
-    color: #444;
+    color: white;
     font-family: 'Anton', sans-serif;
 }
 
@@ -39,11 +39,11 @@ form
     background-color: white;
     padding: 30px;
     margin: 10px;
-    border-radius: 5px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
     color: white;
     display: flex;
     flex-direction: column;
+    background-color: #10403F;
 }
 
 .card > label
@@ -60,23 +60,13 @@ form
     color: #333;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     margin: 20px 0;
-    border-radius: 5px;
     padding: 5px 20px;
     text-align: center;
     display: none;
 }
-
-.card1
-{
-    background-color: #016FB9;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-}
-
 .card2
 {
-    background-color: #FE5F55;
-    margin-top: 40px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
 }
 
 .card > button
@@ -84,8 +74,6 @@ form
     border: none;
     outline: none;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    border-radius: 5px;
     padding: 5px 20px;
     transition: .2s ease-in-out;
     font-size: 0.8rem;
